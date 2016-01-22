@@ -27,8 +27,8 @@ button,
 	line-height: 34px;
 }
 
-.ba-button--voluptate {
-	margin-top: 40px;
+.ba-button--shevron {
+	margin-top: 50px;
 }
 
 input[type="submit"]:hover,
@@ -246,11 +246,11 @@ textarea {
 	color:  #b7b7b7;
 }
 
-/*.fa-chevron {
+.fa-chevron-down {
 	padding-left: 5px;
-	margin: 13px;
+	margin-left: 12px;
 	border-left: 1px solid #d7d5d5;
-}*/
+}
 
 /*section featured*/
 .ba-featured {
@@ -262,6 +262,29 @@ textarea {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
+	position: relative;
+}
+
+.ba-featured__title h2 {
+	float: left;
+}
+
+.ba-featured__circle {
+	display: inline-block;
+	background-color: #dedede;
+	float: right;
+	width: 8px;
+	height: 8px;
+	margin: 20px 7px 0 0;
+	border-radius: 50%;
+}
+
+.ba-featured__circle--active {
+    background-color: #9b9b9b;
+}
+
+.ba-featured__circle:hover {
+	background-color: #9b9b9b;
 }
 
 .ba-featured img {
@@ -294,6 +317,14 @@ textarea {
 .ba-gallery {
 	padding: 90px 0;
 }
+.ba-gallery h2 {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.ba-gallery img {
+	display: block;
+}
 /*
  ba-footer */
 .ba-footer {
@@ -307,6 +338,7 @@ textarea {
 	margin: 0;
 	font-weight: 300;
 	font-size: 16px;
+	letter-spacing: 0.6px;
 }
 
 .ba-footer a {
@@ -316,6 +348,7 @@ textarea {
 
 .ba-footer__phone, .ba-footer li a, .ba-footer a {
 	color: #ebebeb;
+	letter-spacing: 0.6px;
 }
 
 .ba-footer__list {
