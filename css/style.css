@@ -364,6 +364,10 @@ textarea {
 	background-position: 0px -16px;
 }
 
+.ba-featured__stars li:hover {
+	background-position: 0px -16px;
+}
+
 /* end-of-stars */
 
 /*ba-gallery*/
