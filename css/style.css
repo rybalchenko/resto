@@ -272,7 +272,7 @@ textarea {
 
 /*section featured*/
 .ba-featured {
-	padding: 175px 0 130px;
+	padding: 175px 0 110px;
 }
 
 .ba-featured__title {
@@ -332,6 +332,7 @@ textarea {
 	font-weight: 300;
 	letter-spacing: 0.7px;
 	line-height: 1;
+	margin-bottom: 0;
 }
 
 .ba-featured span {
@@ -343,6 +344,27 @@ textarea {
 .ba-featured span:before {
 	content: '$';
 }
+
+/* stars */
+.ba-featured__stars {
+	padding-left: 0;
+	margin-top: 0px;
+}
+
+.ba-featured__stars li {
+	display: inline-block;
+	background-image: url(../img/stars.png);
+	width: 11px;
+	height: 11px;
+	background-repeat: no-repeat;
+	margin-right: 3px;
+}
+
+.ba-featured__active {
+	background-position: 0px -16px;
+}
+
+/* end-of-stars */
 
 /*ba-gallery*/
 .ba-gallery {
@@ -395,6 +417,11 @@ textarea {
 	color: #ebebeb;
 	letter-spacing: 0.6px;
 }
+
+.ba-footer li a {
+	line-height: 2.2;
+}
+
 
 .ba-footer__list {
 	font-weight:400;
